@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.julie.languagetranslator.MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:background="#F0F4C3"
+        android:padding="24dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:text="Phrases" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="Family"
+        android:background="#DCE775"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:padding="24dp"
+        android:background="#CDDC39"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Numbers"
+        android:padding="24dp"
+        android:background="#AFB42B"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="236dp" />
+   </LinearLayout>
+</ScrollView>
